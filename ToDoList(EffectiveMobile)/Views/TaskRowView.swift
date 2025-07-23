@@ -1,9 +1,3 @@
-//
-//  TaskRowView.swift
-//  ToDoList(EffectiveMobile)
-//
-//  Created by Rayimbek Jigitekov on 23.07.2025.
-//
 import SwiftUI
 
 struct TaskRowView: View {
