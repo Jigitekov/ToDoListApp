@@ -13,8 +13,10 @@ struct ToDoList_EffectiveMobile_App: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TaskListView()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
 }
+
+
