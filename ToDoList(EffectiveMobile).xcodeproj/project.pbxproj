@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		2C5866592F214EF00052AB79 /* readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 2C5866582F214EE90052AB79 /* readme.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		2CB9B62D2E2FFAE900D77DEA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,6 +28,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2C5866582F214EE90052AB79 /* readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
+		2C58665B2F214F410052AB79 /* main.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = main.png; sourceTree = "<group>"; };
+		2C58665C2F214F410052AB79 /* CreatingAnIssue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CreatingAnIssue.png; sourceTree = "<group>"; };
+		2C58665D2F214F410052AB79 /* ViewingAnIssueInTheList.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ViewingAnIssueInTheList.png; sourceTree = "<group>"; };
+		2C58665E2F214F410052AB79 /* Editing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Editing.png; sourceTree = "<group>"; };
 		2CB9B61A2E2FFAE800D77DEA /* ToDoList(EffectiveMobile).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ToDoList(EffectiveMobile).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CB9B62C2E2FFAE900D77DEA /* ToDoList(EffectiveMobile)Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ToDoList(EffectiveMobile)Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CB9B6362E2FFAE900D77DEA /* ToDoList(EffectiveMobile)UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ToDoList(EffectiveMobile)UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -72,9 +81,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2C58665A2F214F080052AB79 /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				2C58665B2F214F410052AB79 /* main.png */,
+				2C58665C2F214F410052AB79 /* CreatingAnIssue.png */,
+				2C58665D2F214F410052AB79 /* ViewingAnIssueInTheList.png */,
+				2C58665E2F214F410052AB79 /* Editing.png */,
+			);
+			path = Screenshots;
+			sourceTree = "<group>";
+		};
 		2CB9B6112E2FFAE800D77DEA = {
 			isa = PBXGroup;
 			children = (
+				2C58665A2F214F080052AB79 /* Screenshots */,
+				2C5866582F214EE90052AB79 /* readme.md */,
 				2CB9B61C2E2FFAE800D77DEA /* ToDoList(EffectiveMobile) */,
 				2CB9B62F2E2FFAE900D77DEA /* ToDoList(EffectiveMobile)Tests */,
 				2CB9B6392E2FFAE900D77DEA /* ToDoList(EffectiveMobile)UITests */,
@@ -212,6 +234,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C5866592F214EF00052AB79 /* readme.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
