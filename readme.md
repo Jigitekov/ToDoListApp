@@ -11,10 +11,10 @@ A full-featured iOS task management application built with Swift and UIKit. The 
 
 ## Screenshots 
 <p align="center">
-  <img src="screenshots/main.png" width="200">
-  <img src="screenshots/CreatingAnIssue.png" width="200">
-  <img src="screenshots/ViewingAnIssueInTheList.png" width="200">
-  <img src="screenshots/Editing.png" width="200">
+  <img src="Screenshots/main.png" width="200">
+  <img src="Screenshots/CreatingAnIssue.png" width="200">
+  <img src="Screenshots/ViewingAnIssueInTheList.png" width="200">
+  <img src="Screenshots/Editing.png" width="200">
 </p>
 
 ## Key Functionality
